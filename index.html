@@ -1,0 +1,39 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Acme w/ Bootscrap and Axios VJS</title>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/axios/0.19.0/axios.js'></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <style>
+        tr{
+            display: flex;
+            
+        }
+        td, th{
+            width:14%
+        }
+    </style>
+</head>
+<body>
+    <div class='container'>
+        <h1>Acme w/ Bootscrap and Axios VJS</h1>
+        <ul class='nav nav-tabs'>
+            <li class='nav-item'>
+                <a class='nav-link' id='companiesLink' href='#companies'>
+                    Companies(38)
+                </a>
+            </li>
+            <li class='nav-item'>
+                <a class='nav-link' href="#products" id='productsLink'>
+                    Products(9)
+                </a>
+            </li>
+        </ul>
+        <h2 id='title'></h2>
+        <table id='results' class='table-striped'></table>
+    </div>
+</body>
+<script type="text/javascript" src="index.js"></script>
+</html>
